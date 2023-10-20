@@ -1,9 +1,13 @@
-import Image from "next/image";
+import { Container, HomeBanner } from "./components";
 
 export default function Home() {
   return (
-    <>
-      <h1>Yello </h1>
-    </>
+    <div className="p-8">
+      <Container>
+        <div>
+          <HomeBanner />
+        </div>
+      </Container>
+    </div>
   );
 }
