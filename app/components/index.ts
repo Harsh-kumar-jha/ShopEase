@@ -5,6 +5,8 @@ import Container from "./Container";
 import ProductCart from "./products/ProductCart";
 import ProductDetails from "./ProductDetails/ProductDetails";
 import Button from "./Button/Button";
+import Heading from "./Heading/Heading";
+import Avatar from "./Avatar/Avatar";
 
 export {
   Footer,
@@ -14,4 +16,6 @@ export {
   ProductCart,
   ProductDetails,
   Button,
+  Heading,
+  Avatar,
 };
