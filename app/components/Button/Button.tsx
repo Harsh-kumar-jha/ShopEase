@@ -23,6 +23,7 @@ const Button: React.FC<ButtonPros> = ({
 }) => {
   return (
     <button
+      onClick={onClick}
       disabled={disable}
       className={`
     disable:opacity-70
